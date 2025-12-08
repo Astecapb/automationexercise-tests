@@ -18,7 +18,7 @@ describe('Checkout', () => {
     cy.contains('Order Placed!').should('be.visible')
   })
 
-  it('FIN-03: Deve exigir dados de pagamento (validação)', () => {
+  it('FIN-02: Deve exigir dados de pagamento (validação)', () => {
     cy.visit('/')
     const email = `robson_${Date.now()}@mail.com`
     cy.signup('Robson QA', email, 'SenhaForte123!')

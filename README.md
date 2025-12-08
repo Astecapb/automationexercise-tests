@@ -21,15 +21,15 @@
 1. Instale dependências:
 npm ci
 
-text
+
 2. Testes E2E:
 npm run test:e2e
 
-text
+
 3. Testes API:
 npm run test:api
 
-text
+
 
 ## 🔄 CI/CD Pipeline
 - Cypress: `.github/workflows/cypress.yml`
